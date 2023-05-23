@@ -3201,12 +3201,13 @@ input, select, textarea {
 
 		#footer .icons {
 			margin: 0;
+			align-items: center;
 		}
 
 		#footer .copyright {
 			font-size: 0.8em;
 			list-style: none;
-			margin: 2em 0 0 0;
+			margin: 1em 0 0 0;
 			padding: 0;
 		}
 
@@ -3610,3 +3611,34 @@ input, select, textarea {
 	ul li a:hover {
 		background-color: #2883eb68;
 	  }
+
+	.flex-container{
+		/* height: 150px; */
+		/* width: 100% ; */
+		justify-content: center;
+		display: flex;
+		flex-wrap: wrap ;
+
+		
+	}
+	.skill{
+		border-radius: 50%;
+		height: 70px;
+		width: 70px;
+
+
+	}
+	.iconss{
+		margin: 20px;
+		
+		text-align: center;
+	}
+
+	.flex1-container{
+		/* height: 150px; */
+		/* width: 100% ; */
+		justify-content: space-around;
+		display: flex;
+		flex-wrap: wrap ;	
+	}
+	
